@@ -17,7 +17,10 @@ def q1():
 def q2():
   num1 = input("Input a number: ")
   num2 = input("Input a number: ")
-  sum = int(num1) // int(num2)
+  num1 = float(num1)
+  num2 = float(num2)
+  sum = (num1) / (num2)
+  sum = int(sum)
   print(sum)
 
 # Output the phrase "hello Mr. Kalisz have you seen my work yet?"
@@ -31,11 +34,15 @@ def q3():
 def q4():
   num1 = input("Input a number: ")
   num2 = input("Input a number: ")
-  sum = int(num1) * int(num2)
-	sum1 = sum // 1
+  num1 = float(num1)
+  num2 = float(num2)
+  sum = (num1) * (num2)
+  print (sum)
+	sum1 = sum / 1
+  sum1 = int(sum1)
   print (sum1)
 
-q1()
-q2()
-q3()
-q4()
+#q1()
+#q2()
+#q3()
+#q4()
