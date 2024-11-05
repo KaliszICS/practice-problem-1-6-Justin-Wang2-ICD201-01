@@ -7,7 +7,7 @@
 
 # From input, recieve two integers from the user and add them together.  Output the result.
 def q1():
-	num1 = input("Input a number: ")
+  num1 = input("Input a number: ")
   num2 = input("Input a number: ")
   num1 = int(num1)
   num2 = int(num2)
